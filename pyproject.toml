@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "agents-reno"
+version = "0.1.0"
+description = "reno Multi Agents"
+authors = ["RINDAMAN2426"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = ">=1.0.0"
+yfinance = ">=0.2.0"
+sec-api = "*"
+newsapi-python = ">=0.2.7"
+beautifulsoup4 = ">=4.12.0"
+requests = ">=2.31.0"
+pandas = ">=2.1.0"
+numpy = ">=1.26.0"
+pydantic = ">=2.5.0"
+pyyaml = ">=6.0"
+jinja2 = ">=3.1.0"
+python-dotenv = ">=1.0.0"
+typer = ">=0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.4.0"
+black = ">=23.11.0"
+ruff = ">=0.1.7"
+mypy = ">=1.7.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
